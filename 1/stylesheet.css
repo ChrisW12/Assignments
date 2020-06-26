@@ -1,0 +1,91 @@
+img {
+ float: right; 
+
+ width: 350px; 
+
+ 
+ padding: 100px;
+
+}
+
+
+
+table td {
+border: 1px solid black;
+
+}
+
+table th {
+  height: 50px;
+  
+}
+
+
+A:hover {
+  background-color: green;
+}
+
+
+h1 { 	
+	color: navy;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+article {
+  
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+header {
+  background: url(headerback.jpg);
+  padding: 250px;
+ }
+
+header2 {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+-webkit-text-stroke: 2px black;
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  
+  width: 96%;
+  background: #ccc;
+  padding: 30px;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+
